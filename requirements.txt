@@ -1,5 +1,0 @@
-python-telegram-bot==13.7
-nltk=3.6.2
-googlesearch-python=1.0.1
-numpy>=1.9.2
-pandas>=0.19
