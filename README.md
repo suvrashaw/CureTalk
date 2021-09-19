@@ -1,1 +1,0 @@
-# curetalk-try2
