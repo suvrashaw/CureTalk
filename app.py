@@ -1,8 +1,6 @@
 from telegram.ext import *
 import response as r
 
-
-
 API_KEY="1977152020:AAGfZUZ9fHqadNDji8WjiPr466dNJo1vfLk"
 
 def help(update,context):
@@ -20,20 +18,11 @@ def symptoms(update,context):
     update.message.reply_text("Please type in your symptoms.")
     update.message.reply_text("PLEASE START THE SENTENCE WITH THE WORD: Symptom is/Symptoms are")
 
-'''
-def symptom_handle(update,context):
-    text = str(update.message.text).lower()
-    resp = s.sym(text)
-    update.message.reply_text(resp)
-'''
-
 def hospitals(update,context):
     update.message.reply_text("Please enter the city that you live in, in the following manner.")
     update.message.reply_text("Hospitals in {your city name}.\nFor eg: Hospitals in Chennai")
 
-
 def handle_message(update,context):
-    #count=0
     text = str(update.message.text).lower()
     response=r.sample(text)
     update.message.reply_text(response)
@@ -51,11 +40,7 @@ def main():
     dp.add_error_handler(error)
     dp.add_handler(MessageHandler(Filters.text, handle_message))
 
-
     updater.start_polling()
     updater.idle()
 
-#count = 0
 main()
-
-
