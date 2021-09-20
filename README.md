@@ -17,3 +17,5 @@ Over the last decade, scientific discovery and technological advances have creat
 - **\start & \help** - We used the Botfather API token and integrated it into py-telegram-bot so that we can implement commands using python.
 - **\symptoms** - We have used the NLTK library for processing the user input. Then, we have also matched the extracted symptoms into the CSV.
 - **\hospitals** - The py-gsearch has been used for looking for nearby hospitals as the user wants. This is just one of the prospects for our project in future.
+
+## By [Suvra](https://www.linkedin.com/in/suvrashaw), [Saranya](https://www.linkedin.com/in/saranya-bhattacharjee/), [Diptaraj](https://www.linkedin.com/in/diptaraj23/), [Mehuly](https://www.linkedin.com/in/mehuly-chakraborthy-638a69195/) and [Kaustav](https://www.linkedin.com/in/kaustavr19/)
